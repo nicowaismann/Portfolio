@@ -1,0 +1,491 @@
+body {
+    font-family:'Noto Sans', sans-serif;;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+
+    position: relative;
+    width: 1920px;
+    height: 5500px;
+  background: radial-gradient(95.49% 79.74% at 95.49% 100%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #0E1222;
+}
+
+
+
+header {
+    position: absolute;
+    width: 1920px;
+    height: 78px;
+    left: 0px;
+    top: 0px;
+
+    background: #262626;
+
+}
+
+header h1 {
+
+
+    position: absolute;
+    width: 310px;
+    height: 46px;
+    left: 59px;
+    top: -5px;
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 33px;
+    line-height: 48px;
+
+    color: #FFFFFF;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 18px;
+  margin: 0 10px;
+  transition: color 0.2s ease-in-out;
+}
+
+button:hover {
+  color: #42a5f5;
+}
+
+.fondo{
+    position: absolute;
+    width: 630px;
+    height: 54px;
+    left: 1161px;
+    top: 12px;
+
+    background: #000000;
+    border-radius: 25px;
+}
+
+.acercademi{
+    color:white;
+    font-weight: bolder;
+    font-size: 25px;
+    position: absolute;
+    width: 243px;
+    height: 54px;
+    left: 1110px;
+    top: 12px;
+
+    background: #000000;
+    border-radius: 25px;
+}
+
+.acercademi:hover{
+    color: black;
+    background: white;
+    transition:0.5s;
+}
+
+.proyectos{
+    color:white;
+    font-weight: bolder;
+    font-size: 25px;
+    position: absolute;
+    width: 233px;
+    height: 54px;
+    left: 1360px;
+    top: 12px;
+
+    background: #000000;
+    border-radius: 25px;
+}
+
+.proyectos:hover{
+    color: black;
+    background: white;
+    transition:0.5s;
+}
+
+.contacto{
+    color:white;
+    font-weight: bolder;
+    font-size: 25px;
+    position: absolute;
+    width: 209px;
+    height: 54px;
+    left: 1600px;
+    top: 12px;
+
+    background: #000000;
+    border-radius: 25px;
+}
+
+.contacto:hover{
+    color: black;
+    background: white;
+    transition:0.5s;
+}
+
+.titulo1{
+    position: absolute;
+    width: 320px;
+    height: 69px;
+    left: 129px;
+    top: 340px;
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 72px;
+
+    color: #FFFFFF;
+}
+
+.desc{
+    position: absolute;
+width: 580px;
+height: 71px;
+left: 129px;
+top: 470px;
+
+font-style: normal;
+font-weight: 900;
+font-size: 25px;
+line-height: 36px;
+
+color: #FFFFFF;
+}
+
+.ruta{
+    position: absolute;
+    width: 625.6px;
+    height: 363.2px;
+    left: 1123px;
+    top: 450px;
+
+    background: url(ni_tan_mal.png);
+    filter: drop-shadow(0px 75px 179px rgba(0, 0, 0, 0.33)) drop-shadow(0px 34.6748px 82.7571px rgba(0, 0, 0, 0.244753)) drop-shadow(0px 19.8401px 47.3517px rgba(0, 0, 0, 0.206838)) drop-shadow(0px 12.0428px 28.7422px rgba(0, 0, 0, 0.178183)) drop-shadow(0px 7.25632px 17.3184px rgba(0, 0, 0, 0.151817)) drop-shadow(0px 4.04079px 9.64402px rgba(0, 0, 0, 0.123162)) drop-shadow(0px 1.73792px 4.14782px rgba(0, 0, 0, 0.0852471));
+    border-radius: 15px;
+}
+
+.letea{
+    position: absolute;
+    width: 619.2px;
+    height: 361.6px;
+    left: 829px;
+    top: 250px;
+
+    background: url(Pantalla Principal 8.png);
+    filter: drop-shadow(0px 114px 111px rgba(0, 0, 0, 0.13)) drop-shadow(0px 52.7057px 51.3187px rgba(0, 0, 0, 0.0964178)) drop-shadow(0px 30.157px 29.3634px rgba(0, 0, 0, 0.0814815)) drop-shadow(0px 18.3051px 17.8234px rgba(0, 0, 0, 0.0701933)) drop-shadow(0px 11.0296px 10.7394px rgba(0, 0, 0, 0.0598067)) drop-shadow(0px 6.142px 5.98037px rgba(0, 0, 0, 0.0485185)) drop-shadow(0px 2.64163px 2.57211px rgba(0, 0, 0, 0.0335822));
+    border-radius: 15px;
+}
+
+
+
+.seccion1{
+    position: absolute;
+    width: 370px;
+    height: 66px;
+    left: 780px;
+    top: 1201px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 10px;
+
+    color: #FFFFFF;
+  scroll-margin-top: 200px;
+  animation: slideIn 1s ease;
+}
+
+
+.perfil{
+    position: absolute;
+    width: 710px;
+    height: 710px;
+    left: 584px;
+    top: 1350px;
+
+    background: radial-gradient(98.61% 98.61% at 3.5% 0%, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #BAB1F0;
+    box-shadow: 0px 114px 449px rgba(0, 0, 0, 0.43), 0px 82.9172px 302.637px rgba(0, 0, 0, 0.348031), 0px 57.7125px 195.736px rgba(0, 0, 0, 0.29025), 0px 37.8516px 121.458px rgba(0, 0, 0, 0.248594), 0px 22.8px 72.9625px rgba(0, 0, 0, 0.215), 0px 12.0234px 43.4092px rgba(0, 0, 0, 0.181406), 0px 4.9875px 25.9578px rgba(0, 0, 0, 0.13975), 0px 1.15781px 13.7682px rgba(0, 0, 0, 0.0819687);
+    border-radius: 50px;
+
+}
+
+.nico{
+    position: absolute;
+    top:8%;
+    left: 20%;
+    width: 430px;
+    height: 350px;
+
+    background: url(perfil.png);
+    border-radius: 25px;
+}
+
+.desc2{
+    position: absolute;
+    width: 550px;
+    height: 90px;
+    left: 85px;
+    top: 420px;
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 51px;
+    text-align: center;
+
+    color: white;
+}
+
+.seccion2{
+    position: absolute;
+    width: 370px;
+    height: 66px;
+    left: 830px;
+    top: 2364px;
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 10px;
+
+color: #FFFFFF;
+}
+
+.uxui{
+    position: absolute;
+    width: 1369.6px;
+    height: 686.4px;
+    left: 250px;
+    top: 2500px;
+
+    background: radial-gradient(100% 398.76% at 0% 0%, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #BAB1F0;
+    box-shadow: 0px 70px 490px rgba(0, 0, 0, 0.35), 0px 45.3704px 286.968px rgba(0, 0, 0, 0.265741), 0px 26.963px 156.074px rgba(0, 0, 0, 0.212593), 0px 14px 79.625px rgba(0, 0, 0, 0.175), 0px 5.7037px 39.9259px rgba(0, 0, 0, 0.137407), 0px 1.2963px 19.2824px rgba(0, 0, 0, 0.0842593);
+    border-radius: 15px;
+}
+
+.dis3d{
+    position: absolute;
+    width: 1369.6px;
+    height: 686.4px;
+    left: 250px;
+    top: 3300px;
+
+    background: radial-gradient(100% 398.76% at 100% 100%, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #BAB1F0;
+    box-shadow: 0px 75px 500px rgba(0, 0, 0, 0.22), 0px 54.5508px 337.012px rgba(0, 0, 0, 0.178062), 0px 37.9688px 217.969px rgba(0, 0, 0, 0.1485), 0px 24.9023px 135.254px rgba(0, 0, 0, 0.127188), 0px 15px 81.25px rgba(0, 0, 0, 0.11), 0px 7.91016px 48.3398px rgba(0, 0, 0, 0.0928125), 0px 3.28125px 28.9062px rgba(0, 0, 0, 0.0715), 0px 0.761719px 15.332px rgba(0, 0, 0, 0.0419375);
+    border-radius: 15px;
+}
+
+.letea1{
+    position: absolute;
+    width: 618.4px;
+    height: 361.6px;
+    left: 106px;
+    top: 22%;
+
+    background: url(letea.png);
+    filter: drop-shadow(0px 114px 111px rgba(0, 0, 0, 0.13)) drop-shadow(0px 52.7057px 51.3187px rgba(0, 0, 0, 0.0964178)) drop-shadow(0px 30.157px 29.3634px rgba(0, 0, 0, 0.0814815)) drop-shadow(0px 18.3051px 17.8234px rgba(0, 0, 0, 0.0701933)) drop-shadow(0px 11.0296px 10.7394px rgba(0, 0, 0, 0.0598067)) drop-shadow(0px 6.142px 5.98037px rgba(0, 0, 0, 0.0485185)) drop-shadow(0px 2.64163px 2.57211px rgba(0, 0, 0, 0.0335822));
+    border-radius: 15px;
+}
+
+.titulo3{
+    position: absolute;
+    width: 377px;
+    height: 63px;
+    left: 820px;
+    top: 170px;
+
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 65px;
+
+    color: #FFFFFF;
+}
+
+.desc3{
+    position: absolute;
+    width: 400px;
+    height: 255px;
+    left: 820px;
+    top: 260px;
+
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height:40px;
+
+    color: #FFFFFF;
+
+}
+
+.ruta1{
+    position: absolute;
+    width: 618.4px;
+    height: 361.6px;
+    left: 650px;
+    top: 22%;
+
+    background: url(letea.png);
+    filter: drop-shadow(0px 114px 111px rgba(0, 0, 0, 0.13)) drop-shadow(0px 52.7057px 51.3187px rgba(0, 0, 0, 0.0964178)) drop-shadow(0px 30.157px 29.3634px rgba(0, 0, 0, 0.0814815)) drop-shadow(0px 18.3051px 17.8234px rgba(0, 0, 0, 0.0701933)) drop-shadow(0px 11.0296px 10.7394px rgba(0, 0, 0, 0.0598067)) drop-shadow(0px 6.142px 5.98037px rgba(0, 0, 0, 0.0485185)) drop-shadow(0px 2.64163px 2.57211px rgba(0, 0, 0, 0.0335822));
+    border-radius: 15px;
+}
+
+.titulo4{
+    position: absolute;
+    width: 377px;
+    height: 63px;
+    left: 150px;
+    top: 170px;
+
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 65px;
+
+    color: #FFFFFF;
+}
+
+.desc4{
+    position: absolute;
+    width: 400px;
+    height: 255px;
+    left: 150px;
+    top: 260px;
+
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height:40px;
+
+    color: #FFFFFF;
+}
+
+.seccion3{
+    position: absolute;
+    width: 229px;
+    height: 75px;
+    left: 825px;
+    top: 4200px;
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 72px;
+
+    color: #FFFFFF;
+}
+
+.nombre{
+    position: absolute;
+    width: 852px;
+    height: 73px;
+    left: 500px;
+    top: 4400px;
+    font-size: 25px;
+    color:BEBEBE;
+
+    background: #949494;
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+.email{
+    position: absolute;
+    width: 852px;
+    height: 73px;
+    left: 500px;
+    top: 4600px;
+    font-size: 25px;
+    color:BEBEBE;
+
+    background: #949494;
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+.comentarios{
+    position: absolute;
+    width: 852px;
+    height: 300px;
+    left: 500px;
+    top: 4800px;
+    font-size: 25px;
+    color:BEBEBE;
+
+    background: #949494;
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+.Nombre1{
+    position: absolute;
+    width: 82px;
+    height: 35px;
+    left: 500px;
+    top: 4330px;
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 36px;
+
+    color: #BEBEBE;
+}
+
+.Email1{
+    position: absolute;
+    width: 82px;
+    height: 35px;
+    left: 500px;
+    top: 4530px;
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 36px;
+
+    color: #BEBEBE;
+}
+
+.Comentarios1{
+    position: absolute;
+    width: 82px;
+    height: 35px;
+    left: 500px;
+    top: 4730px;
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 36px;
+
+    color: #BEBEBE;
+}
+
+footer{
+    background: black;
+    color:white;
+    position: absolute;
+    width: 1920px;
+    height: 150px;
+    top: 5350px;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
